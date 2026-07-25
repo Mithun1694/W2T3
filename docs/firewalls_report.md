@@ -1,4 +1,4 @@
-** Firewalls**: Types and Uses
+**Firewalls**: Types and Uses
 
 ## What a firewall actually does
 
