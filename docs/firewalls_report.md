@@ -8,7 +8,7 @@ Everything below is really a different answer to the question: *how much does th
 
 ## Packet-Filtering Firewalls
 
-The simplest kind. It checks each packet's basic info — source/destination IP, port number, protocol — against a rule list, with no memory of past packets. Think of it like a bouncer checking ID at the door but not remembering who already came in.
+The simplest kind. It checks each packet's basic info — source/destination IP, port number, protocol — against a rule list, with no memory of past packets.
 
 **Use case:** basic border protection, routers/small office setups. Fast and lightweight, but easy to fool because it doesn't track connection state (an attacker can sometimes craft packets that look "allowed" in isolation).
 
